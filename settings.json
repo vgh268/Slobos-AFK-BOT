@@ -1,32 +1,32 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Technoblade",
-    "password": "",
+    "username": "bot24/7",
+    "password": "ziemniak",
     "type": "offline"
   },
   "server": {
-    "ip": "slobos13.aternos.me",
-    "port": 29195,
-    "version": "1.21.1"
+    "ip": "IBp0dsabhd.aternos.me:62411",
+    "port": 62411,
+    "version": "1.21.11"
   },
   "position": {
     "enabled": true,
-    "x": 0,
-    "y": 100,
+    "x": -570,
+    "y": -600,
     "z": 0
   },
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "Slobos"
+      "password": "ziemniak"
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 500,
       "messages": [
@@ -37,8 +37,8 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 20000,
+    "auto-reconnect-delay": 200,
+    "max-reconnect-delay": 2000,
     "periodic-rejoin": {
       "enabled": true,
       "min-interval": 20,
@@ -49,7 +49,7 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 2,
       "speed": 3000
     },
     "look-around": {
